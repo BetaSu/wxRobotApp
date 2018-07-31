@@ -1,5 +1,5 @@
 {
-  "name": "wechaty-getting-started",
+  "name": "wxRobotApp",
   "version": "0.1.0",
   "description": "Wechaty is a Wechat Bot SDK for Personal Account in Node.js",
   "main": "index.js",
@@ -20,15 +20,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lijiarui/wechaty-getting-started.git"
+    "url": "git+https://github.com/BetaSu/wxRobotApp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lijiarui/wechaty-getting-started/issues"
+    "url": "https://github.com/BetaSu/wxRobotApp.git/issues"
   },
-  "homepage": "https://github.com/lijiarui/wechaty-getting-started#readme",
+  "homepage": "https://github.com/BetaSu/wxRobotApp#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "debug": "~2.6.9",
