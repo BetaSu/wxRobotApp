@@ -2,7 +2,7 @@ const {
   Wechaty, 
 }           = require('wechaty')
 
-const bot = new Wechaty()
+const bot = new Wechaty({puppet: 'puppeteer'})
 
 bot.on('scan',    onScan)
 bot.on('login',   onLogin)

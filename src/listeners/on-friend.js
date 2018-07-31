@@ -27,7 +27,10 @@
 
 const { hotImport } = require('hot-import')
 
-export default async function onFriend (contact, request) {
+module.exports = async function onFriend (params, contact, request) {
+  if (!params.res) {
+    [request, contact] = [contact, params]
+  }
   const config = await hotImport('config.js')
   if (!config.friendEnabled) return
 
